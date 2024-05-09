@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.big{
+    padding:20px 30px ;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: self-end;
+}
+.txt{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin: 8px;   
+}
+.all{
+    border: 1px solid black;
+    width: 35%;
+    height: 35px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+.aa{
+    text-align: start;
+    color: black;
+    margin-left: 400px;
+}
+
+.box2{
+    text-align: center;
+}
+.box4{
+    margin-top: 50px;  
+}
+.bir{
+    font-size: 15px;
+    padding: 8px 10px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    margin-left: 20px;
+}
+.ikki{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.box5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: flex-end;
+    width: 20%;
+}
+.imgs{
+    width: 20%;
+    margin-top: 0;
+}
+.boxs{
+    opacity: 0;
+}
+.new{
+    opacity: 1;
+}
